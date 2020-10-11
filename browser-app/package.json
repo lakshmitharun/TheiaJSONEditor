@@ -20,11 +20,9 @@
     "@theia/cli": "next"
   },
   "scripts": {
-    "prepare": "yarn run clean && yarn build && yarn run download:plugins",
-    "clean": "theia clean",
-    "build": "theia build --mode development",
-    "start": "theia start --plugins=local-dir:plugins",
-    "download:plugins": "theia download:plugins"
+    "prepare": "theia build --mode development",    
+    "start": "theia start",
+    "watch": "theia build --watch --mode development"
   },
   "theiaPluginsDir": "plugins",
   "theiaPlugins": {
