@@ -1,5 +1,5 @@
 {
-  "name": "jsonschema-form-extension",
+  "name": "TharunHello",
   "keywords": [
     "theia-extension"
   ],
@@ -9,16 +9,9 @@
     "src"
   ],
   "dependencies": {
-    "@theia/core": "next",
-    "@theia/monaco": "next",
-    "@theia/json": "next",
-    "react": "^16.4.0",
-    "react-dom": "^16.4.0",
-    "react-jsonschema-form": "^1.0.3"
+    "@theia/core": "latest"
   },
   "devDependencies": {
-    "@types/react-dom": "^16.0.6",
-    "@types/react-jsonschema-form": "^1.0.5",
     "rimraf": "latest",
     "typescript": "latest"
   },
@@ -30,7 +23,7 @@
   },
   "theiaExtensions": [
     {
-      "frontend": "lib/browser/jsonschema-form-frontend-module"
+      "frontend": "lib/browser/TharunHello-frontend-module"
     }
   ]
 }
